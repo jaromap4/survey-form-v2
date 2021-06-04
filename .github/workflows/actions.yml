@@ -19,8 +19,8 @@ jobs:
       uses: actions/setup-node@v2
     - name: Compose up the docker
       run: docker-compose -f "docker-compose.yml" up -d --build
-    - name: List all container   #remove this step once you're done investigating
-      run: docker ps
+    # - name: List all container   #remove this step once you're done investigating
+    #   run: docker ps
     - name: Install all dependencies
       run: npm install
     - name: Run tests from the built image
