@@ -8,7 +8,6 @@ on:
       - develop
       - feature/** 
       - bugfix/** 
-
 jobs:
   build:
     name: Running Units Tests
