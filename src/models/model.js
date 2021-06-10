@@ -11,6 +11,7 @@ class Model {
 		this.req = req;
 		this.force_log = force_log;
 	}
+	// commit 2
 
 	/*
 		DOCU: Executes the given query
